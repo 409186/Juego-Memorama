@@ -1,10 +1,18 @@
+html{
+    background-image: url("Imagenes/Pokemon-fondo.jpg");
+}
 body{
-    background-color: rgb(245, 245, 24);
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+canvas{
+    background: rgb(95, 95, 252);
+    border: solid blue 2px;
 }
 
-#juego{
-    width: 950px;
-    height: 450px;
-    background-color: pink;
-    border: solid rgb(248, 92, 118) 2px;
+h1{
+    color: white;
+    background: rgb(95, 95, 252);
+    border: solid blue 2px;
 }
