@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(245, 245, 24);
+}
+
+#juego{
+    width: 950px;
+    height: 450px;
+    background-color: pink;
+    border: solid rgb(248, 92, 118) 2px;
+}
