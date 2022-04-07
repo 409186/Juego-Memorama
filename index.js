@@ -119,7 +119,7 @@ function Carta(x,y,ancho, largo,info){
  	if(game.pares==game.cartasNum){
  		game.ctx.font = "bold 80px Comic";
  		game.ctx.clearRect(0,0,game.canvas.width,game.canvas.height);
- 		game.ctx.fillText("Muy bien, eres un genio!",60,220);
+ 		game.ctx.fillText("¡Felicidades, has ganado!",60,220);
  	} else {
  		game.ctx.font = "bold 40px Comic";
  		game.ctx.clearRect(0,340,game.canvas.width/2,100);
